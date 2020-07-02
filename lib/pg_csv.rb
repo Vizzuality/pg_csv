@@ -1,5 +1,5 @@
 require 'pg'
-require File.expand_path(File.join(File.dirname(__FILE__), 'pg_csv/version'))
+require 'pg_csv/version'
 
 class PgCsv
 

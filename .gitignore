@@ -1,15 +1,13 @@
-.bundle/
-log/*.log
-pkg/
-test/dummy/db/*.sqlite3
-test/dummy/log/*.log
-test/dummy/tmp/
-test/dummy/.sass-cache
-*.csv
-*.gz
-*.log
-tmp/*
-!tmp/.gitkeep
-*.gem
-todo
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# rspec failure tracking
+.rspec_status
+
 Gemfile.lock

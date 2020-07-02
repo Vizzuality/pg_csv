@@ -1,8 +1,6 @@
-require 'rubygems'
-require 'bundler/setup'
-require 'bundler'
-Bundler::GemHelper.install_tasks
+require "bundler/gem_tasks"
+require "rspec/core/rake_task"
 
-require 'rspec/core/rake_task'
-task :default => :spec
 RSpec::Core::RakeTask.new(:spec)
+
+task :default => :spec
